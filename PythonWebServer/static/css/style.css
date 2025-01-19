@@ -1,0 +1,265 @@
+body {
+  width: 94%;
+  margin: 10px 3%;
+  font: 14px Arial;
+  color: #000000;
+}
+h1 {
+  font: 30px Arial;
+  color: #825555;
+  text-transform: uppercase;
+  text-align: left;
+}
+h2 {
+  font: 20px Arial;
+  color: #578a86;
+  text-align: left;
+}
+h5 {
+  padding: 0px 0px 5px 0px;
+  margin: 0px 0px 10px 0px;
+  border-bottom: 1px dotted #9a0000;
+  font: 18px Arial;
+  font-weight: bold;
+  color: #9a0000;
+}
+h6 {
+  padding: 0px 0px 5px 0px;
+  margin: 0px 0px 10px 0px;
+  font: 16px Arial;
+  font-weight: bold;
+  color: #9a0000;
+}
+.bord {  padding: 0;
+  border: 0px solid #ffffff;
+}
+.lcol {
+  padding: 0;
+  border: 1px solid #ffcc99;
+}
+.rcol {
+  padding: 0;
+  border: 1px solid #99ccff;
+}
+td {
+  margin: 0px;
+  vertical-align: top;
+}
+tr {
+  margin: 0px;
+  vertical-align: top;
+}
+input.button {
+  padding: 10px 10px;
+  margin: 0px 5px 5px 0;
+  border: 1px solid #5b7a92;
+  background: #ffc850;
+  font: 12px Arial;
+  color: #000000;
+  text-decoration: none;
+}
+input.button:hover {
+  cursor: pointer;
+  border: 1px solid #ffc850;
+  background: #663300;
+  font-weight: bold;
+  color: #ffffff;
+}
+#idma {
+  width: 100%;
+  margin: 0 auto;
+}
+#idhe {
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  left: 0;
+  top: 0;
+  background-repeat: no-repeat;
+  background-color: #000000;
+  z-index: 9999;
+}
+#idlo {
+  position: fixed;
+  width: 200px;
+  height: 100px;
+  left: 0;
+  top: 0;
+}
+#idwh {
+  position: fixed;
+  height: 50px;
+  left: 200px;
+  top: 0;
+  font: 32px Arial;
+  font-weight: bold;
+  color: #ffffff;
+}
+#idme {
+  position: fixed;
+  height: 50px;
+  left: 200px;
+  top: 40px;
+  font: 16px Arial;
+  color: #ffffff;
+}
+#idme ul li {
+  height: 50px;
+  float: left;
+  padding: 0 5px 0 5px;
+  list-style: none;
+  color: #ffffff;
+  text-decoration: none;
+}
+#idme a {
+  color: #ffffff;
+  text-decoration: none;
+}
+#idme ul li a:hover {
+  color: #ffaa00;
+}
+#idco {
+  width: 100%;
+  padding: 100px 0 0 0;
+  background-repeat: repeat-x;
+}
+#idbo {
+  height: 25px;
+  overflow: hidden;
+  background-repeat: repeat-x;
+}
+#idri {
+  width: 100%;
+  height: 48px;
+  padding: 10px 0 0 10px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  color: #999999;
+  text-align: left;
+}
+#idta th td {
+  border: 1px solid rgb(127, 83, 83);
+  border-collapse: collapse;
+}
+.clwh {
+  height: 50px;
+  float: left;
+  padding: 0 5px 0 5px;
+  list-style: none;
+  font: 32px Arial;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+}
+.clme {
+  height: 50px;
+  float: left;
+  padding: 0 5px 0 5px;
+  list-style: none;
+  font: 16px Arial;
+  color: #ffffff;
+  text-decoration: none;
+}
+.clth {
+  background-color: #00ff00;
+  color: #000000;
+  text-decoration: none;
+}
+.clear {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
+}
+.col0 {
+  padding: 20px 0px 20px 0px;
+}
+.col1 {
+  width: 48%;
+  float: left;
+  margin: 0px 0px 10px 0px;
+}
+.col2 {
+  width: 48%;
+  float: right;
+  margin: 0px 0px 10px 0px;
+}
+.fram {
+  padding: 20px 40px 20px 10px;
+  background-color: #eeeeff;
+  text-align: justify;
+}
+.havy {
+  padding: 0px;
+  margin-top: 0px;
+  font: 16px Arial;
+}
+.img1 {
+  float: right;
+  padding: 10px 20px 20px 10px;
+  margin: 20px 20px 20px 10px;
+  border: 2px solid #9a0000;
+}
+.img2 {
+  float: left;
+  padding: 10px 20px 20px 10px;
+  margin: 20px 20px 20px 10px;
+  border: 0px solid #b3b1b1;
+}
+.prow {
+  margin: 20px 0px 0px 10px;
+}
+.subb {
+  width: 10%;
+  background-color: #3bcdea;
+}
+.tabl {
+  width: 90%;
+}
+.tx02 {
+  width: 90%;
+  height: 02em;
+}
+.tx05 {
+  width: 90%;
+  height: 05em;
+}
+.tx10 {
+  width: 90%;
+  height: 10em;
+}
+.tx15 {
+  width: 90%;
+  height: 15em;
+}
+.txtm {
+  overflow: hidden;
+  padding: 20px 40px 20px 10px;
+  text-align: justify;
+}
+.txtm a {
+  padding: 0px 0px 0px 0px;
+  font-weight: bold;
+  color: #4c4c4c;
+  text-decoration: none;
+  text-align: left;
+}
+.txtm a:hover {
+  color: #ffaa00;
+}
+.txtm img {
+  float: left;
+  padding: 0px 16px 0px 0px;
+}
+.txtm p {
+  padding: 15px 0px 15px 0px;
+}
+.txtm p span {
+  font-weight: bold;
+  color: #000000;
+}
+.txtm span {
+  display: block;
+  font-weight: bold;
+  color: #767676;
+  text-align: left;
+}

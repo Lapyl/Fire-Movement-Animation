@@ -1,0 +1,48 @@
+<html>
+<body>
+  <h1>Fire Movement Animation</h1>
+  <p>Specify the location's latitude and longitude (within 3 digits), and leave the Address box blank.<br />
+    If they are not known, give the location's Address City Country boxes.<br />
+    The output will be an animation of fires aound the location during 1 to 11 January 2025.</p>
+  <form action = "fmares" method = "POST" style = "width: 100%; height: 80%">
+    <table width="97%">
+      <tr>
+        <td align="left" width="300" valign="top" class="body" id="Latitude"><strong>Latitude</strong> of the location</td>
+        <td align="left" valign="top"><input name="Latitude" type="text" size="15" placeholder="19.4" /></td>
+      </tr>
+      <tr>
+        <td align="left" width="300" valign="top" class="body" id="Longitude"><strong>Longitude</strong> of the location</td>
+        <td align="left" valign="top"><input name="Longitude" type="text" size="15" placeholder="-155.29" /></td>
+      </tr>
+      <tr>
+        <td align="left" width="300" valign="top" class="body">or</td>
+        <td></td>
+      <tr>
+        <td align="left" width="300" valign="top" class="body" id="Address"><strong>Address</strong> of the location</td>
+        <td align="left" valign="top"><input name="Address" type="text" size="30" /></td>
+      </tr>
+      <tr>
+        <td align="left" width="300" valign="top" class="body" id="City"><strong>City & State & Postal</strong> of the location</td>
+        <td align="left" valign="top"><input name="City" type="text" size="30" /></td>
+      </tr>
+      <tr>
+        <td align="left" width="300" valign="top" class="body" id="Country"><strong>Country</strong> of the location</td>
+        <td align="left" valign="top"><input name="Country" type="text" size="30" placeholder="USA" /></td>
+      </tr>
+      <tr>
+        <td align="left" width="300" valign="top" class="body">.</td>
+        <td></td>
+      <tr>
+      <tr>
+        <td align="left" width="300" valign="top" class="body" id="Seconds">Seconds between two animation frames</td>
+        <td align="left" valign="top"><input name="Seconds" type="text" size="5" placeholder="1" /></td>
+      </tr>
+      <tr>
+        <td><input type = "submit" value = "Animate movement of fires." style = "width: 300px; height: 40px"></input></td>
+        <td></td>
+      </tr>
+    </table>
+  </form>
+  <br /><p style="text-align: right">Provided by <a href="https://lipy.us/"><img src="{{url_for('static',filename='img/logo.png')}}" alt="Lipy.us" /></a></p>
+</body>
+</html>
